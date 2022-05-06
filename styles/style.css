@@ -8,8 +8,10 @@ body {
 }
 
 .top-half {
+    display: block;
     background-color: black;
     padding: 0 10%;
+    border: 0;
 }
 
 .header {
@@ -37,6 +39,15 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 12px;
+    text-shadow:
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 60px #fff,
+        0 0 80px #0bf,
+        0 0 100px #0bf,
+        0 0 120px #0bf,
+        0 0 140px #0bf,
+        0 0 160px #0bf;
 }
 
 .main-content {
@@ -73,4 +84,55 @@ body {
     width: 700px;
     height: auto;
     border-radius: 5px;
+}
+
+.info-title {
+    text-align: center;
+    padding: 4% 0 0 0;
+}
+
+.fav-planets {
+    padding: 2% 10% 10% 4%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.planet {
+    width: 200px;
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.planet-pic {
+    width: 200px;
+    height: auto;
+    border: none;
+    border-radius: 4px;
+}
+
+.planet-pic:hover {
+    box-shadow: 0px 0px 12px 2px rgb(0, 0, 0);
+}
+
+#earth:hover {
+    box-shadow: 0px 0px 12px 2px rgb(0, 89, 255);
+}
+
+#uranus:hover {
+    box-shadow: 0px 0px 12px 2px rgb(141, 232, 255);
+}
+
+#neptune:hover {
+    box-shadow: 0px 0px 12px 2px rgb(0, 76, 218);
+}
+
+#venus:hover {
+    box-shadow: 0px 0px 12px 2px rgb(212, 224, 99);
 }

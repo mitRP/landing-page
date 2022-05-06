@@ -24,10 +24,9 @@ a:active {
 }
 
 .top-half {
-    display: block;
     background-color: black;
     padding: 0 10%;
-    border: 0;
+    border: none;
 }
 
 .header {
@@ -157,13 +156,54 @@ a:active {
 #quote {
     margin: 2% 10% 0 10%;
     padding: 40px;
-    background-color: black;
+    border: none;
+    background-color: teal;
     border-radius: 5px;
     color: azure;
-    font-size: large;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#quote:hover{
+    box-shadow: 0px 0px 12px 2px teal;
 }
 
 #author {
     margin: 2% 10% 0 10%;
     text-align: right;
+    font-size: 20px;
+}
+
+.bottom-signup {
+    font-size: larger;
+    background-color: black;
+    color: azure;
+    margin: 5% 10% 2% 10%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-signup{
+    margin: -1% 0 0 0;
+}
+
+#signup-button-bottom {
+    background-color: azure;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+#signup-button-bottom:hover {
+    box-shadow: 0px 0px 12px 2px azure;
+}
+
+.copyright{
+    text-align: center;
 }

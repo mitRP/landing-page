@@ -5,6 +5,8 @@
 body {
     /* padding: 0 4%; */
     background-color: azure;
+    padding: 0;
+    margin: 0;
 }
 
 a:link {
@@ -24,6 +26,9 @@ a:active {
 }
 
 .top-half {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     background-color: black;
     padding: 0 10%;
     border: none;

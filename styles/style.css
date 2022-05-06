@@ -7,6 +7,22 @@ body {
     background-color: azure;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .top-half {
     display: block;
     background-color: black;
@@ -92,7 +108,8 @@ body {
 }
 
 .fav-planets {
-    padding: 2% 10% 10% 4%;
+    margin: 0 10%;
+    /* padding: 2% 10% 10% 4%; */
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -135,4 +152,18 @@ body {
 
 #venus:hover {
     box-shadow: 0px 0px 12px 2px rgb(212, 224, 99);
+}
+
+#quote {
+    margin: 2% 10% 0 10%;
+    padding: 40px;
+    background-color: black;
+    border-radius: 5px;
+    color: azure;
+    font-size: large;
+}
+
+#author {
+    margin: 2% 10% 0 10%;
+    text-align: right;
 }
